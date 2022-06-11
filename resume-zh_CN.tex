@@ -13,48 +13,64 @@
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\name{你的大名}
+\name{潘庆霖}
 
 \basicInfo{
-  \email{yuanbin2014@gmail.com} \textperiodcentered\ 
-  \phone{(+86) 131-221-87xxx} \textperiodcentered\ 
-  \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}}
+  \email{panqinglin00@163.com} \textperiodcentered\
+  \phone{(+86) 131-210-18366} \textperiodcentered\
+  \github[PanQL]{https://github.com/PanQL}}
  
 \section{\faGraduationCap\  教育背景}
-\datedsubsection{\textbf{上海交通大学}, 上海}{2013 -- 至今}
-\textit{在读硕士研究生}\ 信息与通信工程, 预计 2016 年 3 月毕业
-\datedsubsection{\textbf{西安电子科技大学}, 西安, 陕西}{2009 -- 2013}
-\textit{学士}\ 通信工程
+\datedsubsection{\textbf{中国科学院软件研究所}, 北京}{2020 -- 至今}
+\textit{硕士在读}\ 软件工程, 预计 2023 年 6 月毕业
+\datedsubsection{\textbf{清华大学}, 北京}{2016 -- 2020}
+\textit{学士}\ 计算机科学与技术
 
 \section{\faUsers\ 实习/项目经历}
-\datedsubsection{\textbf{黑科技公司} 上海}{2015年3月 -- 2015年5月}
-\role{实习}{经理: 高富帅}
-xxx后端开发
-\begin{itemize}
-  \item 实现了 xxx 特性
-  \item 后台资源占用率减少8\%
-  \item xxx
-\end{itemize}
 
-\datedsubsection{\textbf{分布式科学上网姿势}}{2014年6月 -- 至今}
-\role{Golang, Linux}{个人项目，和富帅糕合作开发}
+% \datedsubsection{\textbf{\LaTeX\ 简历模板}}{2015 年5月 -- 至今}
+% \role{\LaTeX, Python}{个人项目}
+% \begin{onehalfspacing}
+% 优雅的 \LaTeX\ 简历模板, https://github.com/billryan/resume
+% \begin{itemize}
+%   \item 容易定制和扩展
+%   \item 完善的 Unicode 字体支持，使用 \XeLaTeX\ 编译
+%   \item 支持 FontAwesome 4.5.0
+% \end{itemize}
+% \end{onehalfspacing}
+
+\datedsubsection{\textbf{Atlas图数据库计算引擎研发}}{2021 年8月 -- 至今}
+\role{DB, Rust}{实习}
 \begin{onehalfspacing}
-分布式负载均衡科学上网姿势, https://github.com/cyfdecyf/cow
+参与Atlas图数据库计算引擎开发
+  \begin{itemize}
+    \item 实现Aggregation语法的完整支持
+    \item 参与实现优化器框架
+    \item 参与编写、完善下推框架
+    \item 实现部分下推规则
+    \item 实现python语言的udf/udaf功能
+  \end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{RISC-V虚存拓展的Linux内核支持}}{2021 年3月 -- 2022 年5月}
+\role{OS, C}{开源贡献}
+\begin{onehalfspacing}
+为Linux kernel提供RISC-V上五级页表和Svnapot机制的支持
 \begin{itemize}
-  \item 修复了连接未正常关闭导致文件描述符耗尽的 bug
-  \item 使用Chord 哈希 URL, 实现稳定可靠地分流
-  \item xxx (尽量使用量化的客观结果)
+  \item 相关代码已合并到Linux主分支
+  \item 促进对内核源码的理解与调试能力
 \end{itemize}
 \end{onehalfspacing}
 
-\datedsubsection{\textbf{\LaTeX\ 简历模板}}{2015 年5月 -- 至今}
-\role{\LaTeX, Python}{个人项目}
+\datedsubsection{\textbf{zCore的设计与实现}}{2019 年6月 -- 2020 年5月}
+\role{OS, Rust}{毕业设计}
 \begin{onehalfspacing}
-优雅的 \LaTeX\ 简历模板, https://github.com/billryan/resume
+使用Rust协程机制实现的微内核
 \begin{itemize}
-  \item 容易定制和扩展
-  \item 完善的 Unicode 字体支持，使用 \XeLaTeX\ 编译
-  \item 支持 FontAwesome 4.5.0
+  \item 对标Fuchsia的zircon内核
+  \item 在内核中实现协程调度器
+  \item 跑起了Shell等简单程序
+  \item 支持qemu/intel nuc环境
 \end{itemize}
 \end{onehalfspacing}
 
@@ -68,22 +84,21 @@ xxx后端开发
 \section{\faCogs\ IT 技能}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item 编程语言: C == Python > C++ > Java
+  \item 编程语言: Rust > C > C++ == Python == Java
   \item 平台: Linux
-  \item 开发: xxx
+  \item 开发: OS内核，图数据库
 \end{itemize}
 
-\section{\faHeartO\ 获奖情况}
-\datedline{\textit{第一名}, xxx 比赛}{2013 年6 月}
-\datedline{其他奖项}{2015}
+% \section{\faHeartO\ 获奖情况}
+% \datedline{\textit{第一名}, xxx 比赛}{2013 年6 月}
+% \datedline{其他奖项}{2015}
 
-\section{\faInfo\ 其他}
-% increase linespacing [parsep=0.5ex]
-\begin{itemize}[parsep=0.5ex]
-  \item 技术博客: http://blog.yours.me
-  \item GitHub: https://github.com/username
-  \item 语言: 英语 - 熟练(TOEFL xxx)
-\end{itemize}
+% \section{\faInfo\ 其他}
+% % increase linespacing [parsep=0.5ex]
+% \begin{itemize}[parsep=0.5ex]
+%   % \item 技术博客: http://blog.yours.me
+%   \item GitHub: https://github.com/PanQL
+% \end{itemize}
 
 %% Reference
 %\newpage
